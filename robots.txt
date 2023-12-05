@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://thithuypham.github.iothithuypham.github.io/sitemap.xml
+Sitemap: https://thithuypham.github.io/sitemap.xml
