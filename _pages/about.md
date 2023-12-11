@@ -7,7 +7,7 @@ subtitle: Thuy Thi Pham.
 profile:
   align: right
   image: avt_cv.JPG
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
     <p>123 your address street</p>
