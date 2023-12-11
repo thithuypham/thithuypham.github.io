@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - thithuypham
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - thithuypham/Blue-Net
+  - thithuypham/vn-punctuation-prediction
