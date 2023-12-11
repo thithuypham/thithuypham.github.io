@@ -19,4 +19,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-She received the B.S. degree in mathematics and computer science from University of Science, Vietnam National University, Ho Chi Minh City, Vietnam, in 2019. She is currently working toward the M.S. degree in the Department of Multimedia Engineering at Dongguk University, Seoul, South Korea. Her research interests include model-based deep learning for image enhancement, image restoration, and image processing.
+She received the B.S. degree in mathematics and computer science from University of Science, Vietnam National University, Ho Chi Minh City, Vietnam, in 2019. She is currently working toward the M.S. degree in the Department of Multimedia Engineering at Dongguk University, Seoul, South Korea. Her research interests include image processing, model-based deep learning for image enhancement, and image restoration.
