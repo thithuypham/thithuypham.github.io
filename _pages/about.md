@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Thuy Thi Pham.
+subtitle: Thuy Thi Pham (Thuy T Pham, Thuy Pham)
 
 profile:
   align: right
-  image: avt_cv.JPG
+  image: avt_cv.png
   image_circular: false # crops the image to make it circular
   more_info: >
     # <p>555 your office number</p>
