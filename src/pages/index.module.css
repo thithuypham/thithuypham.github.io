@@ -1,0 +1,270 @@
+/**
+ * Minimalist Homepage - Academic Portfolio
+ */
+
+.heroBanner {
+  padding: 6rem 0 4rem;
+  text-align: center;
+  background: var(--academic-bg);
+  border-bottom: 1px solid var(--academic-border-light);
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 var(--academic-container-padding);
+}
+
+.profileImage {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--academic-border);
+  margin-bottom: 0.5rem;
+}
+
+.heroDescription {
+  font-size: 1.125rem;
+  color: var(--academic-text-light);
+  max-width: 500px;
+  line-height: 1.6;
+  margin: 0 0 2rem 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Section layouts - minimal */
+.highlights {
+  padding: var(--academic-section-padding);
+  background: var(--academic-bg-subtle);
+}
+
+.news {
+  padding: var(--academic-section-padding);
+  background: var(--academic-bg);
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 1.875rem;
+  color: var(--academic-text);
+  margin-bottom: 4rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+/* Clean card design */
+.highlightCard {
+  background: var(--academic-bg);
+  padding: 2rem;
+  border-radius: var(--academic-radius);
+  height: 100%;
+  transition: border-color 0.2s ease;
+  border: 1px solid var(--academic-border);
+}
+
+.highlightCard:hover {
+  border-color: var(--academic-primary);
+}
+
+.highlightCard h3 {
+  color: var(--academic-text);
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+.highlightCard p {
+  color: var(--academic-text-light);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+/* News section - minimal */
+.newsList {
+  margin-bottom: 2rem;
+}
+
+.newsItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background: var(--academic-bg-subtle);
+  border-radius: var(--academic-radius);
+  border-left: 2px solid var(--academic-primary);
+  transition: background-color 0.2s ease;
+}
+
+.newsItem:hover {
+  background: var(--academic-bg-section);
+}
+
+.newsDate {
+  background: var(--academic-primary);
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: var(--academic-radius-sm);
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+  min-width: fit-content;
+}
+
+.newsItem p {
+  margin: 0;
+  color: var(--academic-text-light);
+  line-height: 1.6;
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.newsLink {
+  text-align: center;
+}
+
+/* Responsive design */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 4rem 0 3rem;
+  }
+  
+  .profileImage {
+    width: 160px;
+    height: 160px;
+  }
+  
+  .heroDescription {
+    font-size: 1rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  
+  .buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .highlightCard {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 3rem 0 2rem;
+  }
+  
+  .heroContent {
+    padding: 0 1rem;
+  }
+  
+  .profileImage {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .heroDescription {
+    font-size: 0.95rem;
+    /* max-width: 100%; */
+  }
+  
+  .sectionTitle {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .newsItem {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+  
+  .newsDate {
+    align-self: flex-start;
+    font-size: 0.7rem;
+  }
+  
+  .highlightCard {
+    padding: 1.25rem;
+  }
+}
+
+/* Dark theme adjustments */
+[data-theme='dark'] .heroBanner {
+  background: var(--ifm-background-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .profileImage {
+  border: 2px solid var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .heroDescription {
+  color: var(--ifm-color-content-secondary);
+}
+
+[data-theme='dark'] .sectionTitle {
+  color: var(--ifm-heading-color);
+}
+
+[data-theme='dark'] .highlightCard {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .highlightCard:hover {
+  border-color: var(--academic-primary);
+}
+
+[data-theme='dark'] .highlightCard h3 {
+  color: var(--ifm-heading-color);
+}
+
+[data-theme='dark'] .highlightCard p {
+  color: var(--ifm-color-content-secondary);
+}
+
+[data-theme='dark'] .newsItem {
+  background: var(--ifm-background-surface-color);
+  border-left-color: var(--academic-primary);
+}
+
+[data-theme='dark'] .newsItem:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+[data-theme='dark'] .newsItem p {
+  color: var(--ifm-color-content);
+}
+
+[data-theme='dark'] .highlights {
+  background: var(--ifm-background-surface-color);
+}
+
+[data-theme='dark'] .news {
+  background: var(--ifm-background-color);
+} 

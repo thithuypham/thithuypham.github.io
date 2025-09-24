@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Academic content - high priority for indexing
+Allow: /about
+Allow: /publications
+Allow: /projects
+Allow: /cv
+Allow: /blog
+
+# Lower priority or exclude from indexing
+Disallow: /search
+Disallow: /tags/
+
+# Sitemap location
+Sitemap: https://thithuypham.github.io/sitemap.xml
+
+# Crawl-delay (optional - be respectful to search engines)
+Crawl-delay: 1 

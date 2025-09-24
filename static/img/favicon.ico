@@ -1,0 +1,14 @@
+# Favicon Placeholder
+
+Replace this file with your website favicon (favicon.ico).
+
+To create a favicon:
+1. Use your logo or initials
+2. Create a 32x32 pixel ICO file
+3. Name it "favicon.ico"
+4. Place it in the static/img/ directory
+
+Online favicon generators:
+- https://favicon.io/
+- https://www.favicon-generator.org/
+- https://realfavicongenerator.net/ 
