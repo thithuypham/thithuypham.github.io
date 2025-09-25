@@ -1,0 +1,11 @@
+# CV PDF Placeholder
+
+Replace this file with your actual CV in PDF format.
+
+File requirements:
+1. Name: "thuy-pham-cv.pdf"
+2. Format: PDF
+3. Professional academic CV layout
+4. Update the filename in the CV page if you use a different name
+
+The CV page (src/pages/cv.md) links to this file for download. 
