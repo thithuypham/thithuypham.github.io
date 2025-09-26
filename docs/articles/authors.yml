@@ -1,8 +1,8 @@
 thuy:
   name: Thuy Pham
-  title: M.Sc. Student in Multimedia Engineering
+  # title: M.Sc. Student in Multimedia Engineering
   url: https://thithuypham.github.io
-  image_url: /img/profile-placeholder.svg
+  image_url: /img/profile-placeholder.jpg
   page: false
   socials:
     github: thithuypham
