@@ -26,7 +26,7 @@ function HomepageHeader() {
               <p className={styles.heroDescription}>
               Hi, I’m a researcher who enjoys turning chaotic real-world data into something that looks like it makes sense :)).
               I also spend a lot of time convincing algorithms (and sometimes reviewers) that I know what I’m doing hmmm.<br /><br />
-              Data is as messy as the world itself—if you know, you know—and I’m just here trying to structure queries about it in the most naive way possible.<br /><br />
+              {/* Data is as messy as the world itself—if you know, you know—and I’m just here trying to structure queries about it in the most naive way possible.<br /><br /> */}
               This site is where I share what I’ve learned so far—tech stuff, life stuff, and all the funny mistakes in between—both the technical and not-so-technical bits, served with a dash of curiosity, chaos, and charm.
               </p>
               <div className={styles.buttons}>
